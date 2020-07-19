@@ -1,0 +1,73 @@
+.title {
+    background-image: url("../img/design2_image1.jpg");
+    background-size: 100% 86%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtitle {
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 4vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: serif;
+    border-style: solid;
+    border-color: black;
+}
+
+.logo {
+    right: 17vh;
+    top: 68vh;
+    width: 15%;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+nav {
+    position: absolute;
+    right: 5vw;
+    top: 8vh;
+}
+
+nav>a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: blue;
+    margin: 20px;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+    box-shadow: 5px 5px 3px rgba(255, 255, 255, 0.5);
+}
+
+.activecolor {
+    background-color: green;
+}
+
+main {
+    float: right;
+    width: 60%;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+dt {
+    font-style: italic;
+}
+
+dd {
+    margin-bottom: 40px;
+}
+
+#gallery-link{
+    display:none;
+}
